@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Soekadjan</title>
+</head>
+<body>
+    <header>
+       <div class="nav-bar animate__animated animate__fadeIn">
+        <span class="logo animate__animated animate__fadeIn">Soekadjan</span>
+        <div class="menu">
+          <ul class="nav-links">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link animate__animated animate__fadeIn ">
+                <span class="nav-icon fa fa-home"></span>
+                <span class="nav-text">Home</span>
+              </a>
+            <li class="nav-item animate__animated animate__fadeIn ">
+              <a href="contact.html" class="nav-link">
+                <span class="nav-icon fa fa-contact-card"></span>
+                <span class="nav-text">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="darklight animate__animated animate__fadeIn" onclick="darklight()">
+          <div class="mooon"><img src="moon.png" id="togel"></div>
+          <img src="sun.png" class="sun">
+        </div>
+       </div>
+    </header>
+    <main>
+        <div class="container">
+          <div class="promotion animate__animated animate__fadeIn animate__delay-1s" id="home">
+            <div class="desk">
+              <h4>P R E V I E V</h4>
+              <h1>Kaos Kaki</h1>
+              <p>This watch can give you some magic</p>
+              <h5>Rp 160.000</h5>
+              <div class="butn" onclick="buy('Kaos Kaki', 160000)">Beli</div>  
+            </div>
+            <div class="gambar">
+              <img src="assets/images/product-7.jpg">
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+      <p>Copyright <span id="year"></span> Soekadjan</p>
+      <h5>Coded By Adrian Aji Septa</h5>
+    </footer>
+    <script src="source.js"></script>
+</body>
+</html>

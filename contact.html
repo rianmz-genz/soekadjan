@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Soekadjan</title>
+</head>
+<body>
+    <header>
+       <div class="nav-bar animate__animated animate__fadeIn">
+        <span class="logo animate__animated animate__fadeIn">Soekadjan</span>
+        <div class="menu">
+          <ul class="nav-links">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link animate__animated animate__fadeIn ">
+                <span class="nav-icon fa fa-home"></span>
+                <span class="nav-text">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link animate__animated animate__fadeIn ">
+                <span class="nav-icon fa fa-cart-plus"></span>
+                <span class="nav-text">Product</span>
+              </a>
+            </li>
+            <li class="nav-item animate__animated animate__fadeIn ">
+              <a href="category.html" class="nav-link">
+                <span class="nav-icon fa fa-list"></span>
+                <span class="nav-text">Category</span>
+              </a>
+            </li>
+            <li class="nav-item animate__animated animate__fadeIn ">
+              <a href="contact.html" class="nav-link">
+                <span class="nav-icon fa fa-contact-card"></span>
+                <span class="nav-text">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="darklight animate__animated animate__fadeIn" onclick="darklight()">
+          <div class="mooon"><img src="moon.png" id="togel"></div>
+          <img src="sun.png" class="sun">
+        </div>
+       </div>
+    </header>
+    <main>
+        <div class="container">
+          <div class="kontakk animate__animated animate__fadeIn animate__delay-1s" >
+            <a href="https://web.whatsapp.com/">
+              <div class="waa">
+              <h1><i class="fa-brands fa-whatsapp"></i></h1>
+              <h1>Whatsapp</h1>
+            </div>
+            </a>
+            <a href="https://www.instagram.com/?hl=id">
+              <div class="igg">
+                <h1><i class="fa-brands fa-instagram"></i></h1>
+                <h1>Instagram</h1>
+              </div>
+            </a>
+            <a href="https://web.telegram.org/">
+              <div class="telee">
+                <h1><i class="fa-brands fa-telegram"></i></h1>
+                <h1>Telegram</h1>
+              </div>
+            </a>
+            <a href="https://m.facebook.com/login/?locale=id_ID&refsrc=deprecated">
+              <div class="fbb">
+                <h1><i class="fa-brands fa-facebook"></i></h1>
+                <h1>Facebook</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+    </main>
+    <footer class="nav-bar animate__animated animate__fadeIn">
+      <p>Copyright <span id="year"></span> Soekadjan</p>
+      <h5>Coded By Adrian Aji Septa</h5>
+    </footer>
+    <script src="source.js"></script>
+</body>
+</html>
